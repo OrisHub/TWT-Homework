@@ -1,6 +1,6 @@
 import java.util.Iterator;
 
-public class Queue<T> extends AbstractQueue {
+public class Queue<T> extends AbstractQueue<T> {
     @Override
     public  void clearQueue(){
         list.clear();
@@ -17,23 +17,23 @@ public class Queue<T> extends AbstractQueue {
 
     }
     @Override
-    public Object poll(){
+    public T poll(){
         return list.get(0);
     }
 
     @Override
-    public void enQueue (Object t){
+    public void enQueue (T t){
         list.add(t);
     }
 
     @Override
-    public  Object deQueue(){
+    public T deQueue(){
         return list.remove(0);
     }
 
     @Override
     public void traverse(Visit visit){
-        for (Iterator<String> iterator = list.iterator();iterator.hasNext();){
+        for (Iterator<T> iterator = list.iterator();iterator.hasNext();){
             visit.operate(iterator.next());
         }
     }

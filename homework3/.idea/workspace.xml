@@ -17,12 +17,12 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HomeworkThree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="46" />
+            <state relative-caret-position="76">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AbstractQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            <state relative-caret-position="19">
+              <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -40,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/Visit.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -48,8 +48,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+            <state relative-caret-position="361">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding>
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,21 +94,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="homework3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework3" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -152,30 +149,23 @@
       <option name="presentableId" value="Default" />
       <updated>1571646222032</updated>
       <workItem from="1571646224926" duration="14115000" />
+      <workItem from="1571665317397" duration="323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14115000" />
+    <option name="totallyTimeSpent" value="14438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="设计师" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="消息" weight="0.32956153" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="运行" weight="0.32956153" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="调试" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="设计师" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -183,46 +173,65 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="控制板" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="消息" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="运行" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="调试" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="控制板" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Visit.java">
+    <entry file="file://$PROJECT_DIR$/src/HomeworkThree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="76">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HomeworkThree.java">
+    <entry file="file://$PROJECT_DIR$/src/Visit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="46" />
+        <state relative-caret-position="19">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AbstractQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="19">
+          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        <state relative-caret-position="361">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
