@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MineActivity">
+
+        <ImageView
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/yuu"
+            />
+
+        <GridLayout
+            android:id="@+id/GridLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:rowCount="5"
+            >
+
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#60FFCCCC"
+                android:text="姓名"
+                android:textSize="50sp" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#FFCCCC"
+                android:text="小糸侑"
+                android:textSize="50sp" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#60FFCCCC"
+                android:text="年龄"
+                android:textSize="50sp" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#FFCCCC"
+                android:text="15岁"
+                android:textSize="50sp" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#60FFCCCC"
+                android:text="生日"
+                android:textSize="50sp" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#FFCCCC"
+                android:text="4月5日"
+                android:textSize="50sp" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#60FFCCCC"
+                android:text="身高"
+                android:textSize="50sp" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#FFCCCC"
+                android:text="153cm"
+                android:textSize="50sp" />
+
+            <TextView
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#60FFCCCC"
+                android:text="其他"
+                android:textSize="50sp" />
+
+            <Button
+                android:layout_columnSpan="1"
+                android:id="@+id/others"
+                android:background="#FFCCCC"
+                android:text="Click For More..."
+                android:textSize="30sp"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                >
+            </Button>
+
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:orientation="horizontal"
+            tools:context=".MineActivity">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/others1"
+                android:background="#FFCCCC"
+                android:text="小糸侑的背&#10;后是谁呢？"
+                android:textSize="30sp"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/others2"
+                android:background="#FFCCCC"
+                android:text="菜鸟作者&#10;的话"
+                android:textSize="30sp"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/others3"
+                android:background="#FFCCCC"
+                android:text="要走了吗？"
+                android:textSize="30sp"
+                android:layout_gravity="fill"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
